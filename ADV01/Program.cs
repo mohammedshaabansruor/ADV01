@@ -16,14 +16,22 @@
             #endregion
 
             #region Q04
-            FixedSizeList<int> numbers = new FixedSizeList<int>(3);
+            //FixedSizeList<int> numbers = new FixedSizeList<int>(3);
 
-            numbers.Add(10);
-            numbers.Add(20);
-            numbers.Add(30);
-            numbers.Add(40);
+            //numbers.Add(10);
+            //numbers.Add(20);
+            //numbers.Add(30);
+            //numbers.Add(40);
             #endregion
 
+            #region Q05
+            string word1 = string.Empty;
+            string word2 = "Aymoooon";
+            string word3 = "Sameg";
+            Helper.FirstNonRepeatedCharacter(word1);
+            Helper.FirstNonRepeatedCharacter(word2);
+            Helper.FirstNonRepeatedCharacter(word3);
+            #endregion
         }
     }
 }
