@@ -10,7 +10,10 @@
             Helper<int>.Reverse(Numbers);
             #endregion
 
-
+            #region Q03
+            int[] Numbers = { 1, 2, 3, 4, 5 };
+            Helper.GetOddNumbers(Numbers);
+            #endregion
 
         }
     }
