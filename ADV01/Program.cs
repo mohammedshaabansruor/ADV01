@@ -11,8 +11,17 @@
             #endregion
 
             #region Q03
-            int[] Numbers = { 1, 2, 3, 4, 5 };
-            Helper.GetOddNumbers(Numbers);
+            //int[] Numbers = { 1, 2, 3, 4, 5 };
+            //Helper.GetOddNumbers(Numbers);
+            #endregion
+
+            #region Q04
+            FixedSizeList<int> numbers = new FixedSizeList<int>(3);
+
+            numbers.Add(10);
+            numbers.Add(20);
+            numbers.Add(30);
+            numbers.Add(40);
             #endregion
 
         }
